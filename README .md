@@ -22,7 +22,7 @@ The Bidding App is a web application that enables users to participate in real-t
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/officialruchit/bidding-app-kgk.git
-   cd bidding-app
+   cd bidding-app-kgk
    ```
 
 2. **Install Dependencies**:

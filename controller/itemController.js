@@ -41,21 +41,6 @@ exports.getAllItems = async (req, res) => {
 };
 
 exports.getItemById = async (req, res) => {
-  /* try {
-        const userId = req.user.id; // Access user ID from req.user
-
-        const user = await User.findByPk(userId, {
-            attributes: { exclude: ["password"] },
-        });
-
-        if (!user) {
-            return res.status(404).json({ message: 'User not found' });
-        }
-
-        res.json({ user });
-    } catch (error) {
-        res.status(500).json({ error: error.message + " yahase ayaya" });
-    }*/
   try {
     const item = await Item.findByPk(req.params.id);
     if (!item) {
