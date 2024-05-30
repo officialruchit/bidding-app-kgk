@@ -30,7 +30,7 @@ app.use(bodyParser.json()); // Parse JSON bodies
 // Routing setup
 app.use("/items", itemRoutes); // Item routes
 app.use("/users", userRoutes); // User routes
-app.use("/bids", bidRoutes); // Bid routes
+app.use("/", bidRoutes); // Bid routes
 app.use("/notifications", notificationRoutes); // Notification routes
 
 // WebSocket upgrade event handler
